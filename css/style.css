@@ -1,57 +1,68 @@
 body{
-background-color:rgb(89, 187, 204);
-margin-right: 30px;
-display: block;
-flex-direction: column;
-
-}
-.boris{
-height: 700px;
-background-color: rgb(140, 0, 255);
-width:  220px;
-display: flex;
-flex-direction: column;
-margin-right: 30px;
-align-items: center;
-
-}
-.bordel{
-
-}
-.golos{
-  height:70px;
-  width: 220px;  
-    background-color: rgb(14, 122, 63);
-display: flex;
- justify-content: space-around;
- flex-direction: row-reverse;
- align-items: center;
-}
-button{
-    background-color: tomato;
-}
-img{
-height: 200px;
-width: 160px;
-}
-ul{
-    color: rgb(190, 152, 28);
-
-}
-.Jonson{
-    display: flex;
-    flex-direction:row;
-    justify-content:space-between;
-    
-
-}
-.gyren{
-    height: 240px;
-    width: 180px;
-    display: flex;
-    align-items: center;
+  background-color: bisque;
 }
 
+.container{
+  margin: 20px 40px 0 ;
+  
+}
 
+.photo {
+  display: block;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.main_left {
+  width: 400px;
+  height: 150px;
+  margin-top:150px;
+  margin-left:260px;
+}
+.main_left:hover{
+  background-color: chocolate;
+}
+.main_right{
+  background-color: darkcyan;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.btn{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+width: 100%;
+}
+.btn_color{
+  background-color: darkslateblue;
+  color: azure;
+  border-color: brown;
+  border-width: 2px;
+  border-radius: 10px;
+  width: 120px;
 
+}
+.btn_color:hover{
+  cursor: pointer;
+}
+.frame{
+  border-width:  3px;
+  border-color: yellowgreen;
+  border-style: solid;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+span{
+  text-align: justify;
+  text-indent: 3em;
+}
+.description{
+  margin-bottom:  82px;
+}
 
+.photo {
+  width: 340px;
+  height: 360px;
+}
