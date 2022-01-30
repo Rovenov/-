@@ -1,0 +1,57 @@
+body{
+background-color:rgb(89, 187, 204);
+margin-right: 30px;
+display: block;
+flex-direction: column;
+
+}
+.boris{
+height: 700px;
+background-color: rgb(140, 0, 255);
+width:  220px;
+display: flex;
+flex-direction: column;
+margin-right: 30px;
+align-items: center;
+
+}
+.bordel{
+
+}
+.golos{
+  height:70px;
+  width: 220px;  
+    background-color: rgb(14, 122, 63);
+display: flex;
+ justify-content: space-around;
+ flex-direction: row-reverse;
+ align-items: center;
+}
+button{
+    background-color: tomato;
+}
+img{
+height: 200px;
+width: 160px;
+}
+ul{
+    color: rgb(190, 152, 28);
+
+}
+.Jonson{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+
+}
+.gyren{
+    height: 240px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
